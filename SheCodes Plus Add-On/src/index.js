@@ -8,13 +8,13 @@ function aletDate(event) {
     .format("dddd, MMMM D, YYYY h:mm A");
   if (event.target.value.length > 0) {
     if (event.target.value === "tokyo") {
-      alert``;
+      alert`It is ${tokyoDate} in Aisa/Tokyo`;
     }
     if (event.target.value === "paris") {
-      alert``;
+      alert`It is ${parisDate} in Europe/Paris`;
     }
     if (event.target.value === "sydney") {
-      alert``;
+      alert`It is ${sydneyDate} in Austrailia/Sydney`;
     }
   }
 }
